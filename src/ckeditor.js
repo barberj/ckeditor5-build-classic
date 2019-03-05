@@ -27,6 +27,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import Font from '@ckeditor/ckeditor5-font/src/font';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -40,6 +41,7 @@ ClassicEditor.builtinPlugins = [
 	BlockQuote,
 	CKFinder,
 	EasyImage,
+	Font,
 	Heading,
 	Image,
 	ImageCaption,
@@ -59,34 +61,17 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'heading',
-			'|',
+			'fontFamily',
+			'fontSize',
 			'bold',
 			'italic',
 			'link',
 			'bulletedList',
 			'numberedList',
-			'imageUpload',
 			'blockQuote',
-			'insertTable',
-			'mediaEmbed',
+			'|',
 			'undo',
 			'redo'
-		]
-	},
-	image: {
-		toolbar: [
-			'imageStyle:full',
-			'imageStyle:side',
-			'|',
-			'imageTextAlternative'
-		]
-	},
-	table: {
-		contentToolbar: [
-			'tableColumn',
-			'tableRow',
-			'mergeTableCells'
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
