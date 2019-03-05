@@ -29,7 +29,6 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 import Font from '@ckeditor/ckeditor5-font/src/font';
-import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -43,7 +42,6 @@ ClassicEditor.builtinPlugins = [
 	BlockQuote,
 	CKFinder,
 	EasyImage,
-	Emoji,
 	Font,
 	Heading,
 	Image,
@@ -62,14 +60,6 @@ ClassicEditor.builtinPlugins = [
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
-	emoji: [
-		{ name: 'smile', text: '😀' },
-		{ name: 'wink', text: '😉' },
-		{ name: 'cool', text: '😎' },
-		{ name: 'surprise', text: '😮' },
-		{ name: 'confusion', text: '😕' },
-		{ name: 'crying', text: '😢' }
-	],
 	toolbar: {
 		items: [
 			'fontFamily',
@@ -80,7 +70,6 @@ ClassicEditor.defaultConfig = {
 			'bulletedList',
 			'numberedList',
 			'blockQuote',
-			'emoji',
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
