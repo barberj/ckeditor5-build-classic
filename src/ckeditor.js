@@ -62,6 +62,14 @@ ClassicEditor.builtinPlugins = [
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
+	emoji: [
+		{ name: 'smile', text: '😀' },
+		{ name: 'wink', text: '😉' },
+		{ name: 'cool', text: '😎' },
+		{ name: 'surprise', text: '😮' },
+		{ name: 'confusion', text: '😕' },
+		{ name: 'crying', text: '😢' }
+	],
 	toolbar: {
 		items: [
 			'fontFamily',
