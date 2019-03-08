@@ -562,11 +562,6 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@wwalc/ckeditor5-emoji@^11.0.2":
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/@wwalc/ckeditor5-emoji/-/ckeditor5-emoji-11.0.2.tgz#9cb5b54c86fde25a1b8e0b45ac75d3eeb8477122"
-  integrity sha1-nLW1TIb94lobjgtFrHXT7rhHcSI=
-
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"

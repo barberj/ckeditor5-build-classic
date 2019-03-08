@@ -90,7 +90,6 @@
   },
   "dependencies": {
     "@ckeditor/ckeditor5-font": "^11.0.0",
-    "@wwalc/ckeditor5-emoji": "^11.0.2",
     "ckeditor-text-color-select": "^0.0.2-2"
   }
 }
