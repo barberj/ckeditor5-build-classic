@@ -29,7 +29,6 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 import Font from '@ckeditor/ckeditor5-font/src/font';
-import TextColor from 'ckeditor-text-color-select/src/textcolor';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -57,7 +56,6 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	TextColor
 ];
 
 // Editor configuration.
@@ -66,7 +64,6 @@ ClassicEditor.defaultConfig = {
 		items: [
 			'fontFamily',
 			'fontSize',
-			'textColor',
 			'bold',
 			'italic',
 			'link',
